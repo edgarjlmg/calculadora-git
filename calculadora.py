@@ -12,5 +12,15 @@ def presentacion():
     print("====================================")
 
 
+def sumar(a, b):
+    """Retorna la suma de dos números (a + b)."""
+    return a + b
+
+
+def restar(a, b):
+    """Retorna la resta de dos números (a - b)."""
+    return a - b
+
+
 if __name__ == "__main__":
     presentacion()
