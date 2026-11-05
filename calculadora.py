@@ -22,5 +22,20 @@ def restar(a, b):
     return a - b
 
 
+def multiplicar(a, b):
+    """Retorna el producto de dos números (a * b)."""
+    return a * b
+
+
+def dividir(a, b):
+    """
+    Retorna la división de dos números (a / b).
+    Valida y controla el caso de división entre cero.
+    """
+    if b == 0:
+        return "Error: no es posible dividir entre cero"
+    return a / b
+
+
 if __name__ == "__main__":
     presentacion()
